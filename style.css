@@ -1,0 +1,39 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+body {
+  font-family: Roboto, sans-serif;
+  font-size: 10px;
+}
+.container {
+  /* width: 1170px; */
+  height: auto;
+  max-width: 1170px;
+  margin: 0 auto;
+  position: relative;
+}
+.parthners {
+  padding: 105px 0 90px;
+}
+.parthners__title {
+  margin: 0 0 68px;
+  font-size: 3.6em;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.parthners__row {
+  display: flex;
+  flex-flow: row wrap;
+  /* justify-content: space-arround; */
+}
+.partners__item {
+  margin: 0 25px 25px 0;
+}
+.partners__item img {
+  max-width: 100%;
+}
+.partners__item:nth-child(4n) {
+  margin-right: 0;
+}
